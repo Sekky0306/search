@@ -14,6 +14,9 @@
 		3E55C7F01AFCE89E00CF955C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E55C7EF1AFCE89E00CF955C /* Images.xcassets */; };
 		3E55C7F31AFCE89E00CF955C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E55C7F11AFCE89E00CF955C /* LaunchScreen.xib */; };
 		3E55C7FF1AFCE89E00CF955C /* seachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E55C7FE1AFCE89E00CF955C /* seachTests.m */; };
+		3E55C80C1AFCEA2A00CF955C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E55C8091AFCEA2A00CF955C /* Default-568h@2x.png */; };
+		3E55C80D1AFCEA2A00CF955C /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E55C80A1AFCEA2A00CF955C /* Default-667h@2x.png */; };
+		3E55C80E1AFCEA2A00CF955C /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E55C80B1AFCEA2A00CF955C /* Default-736h@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		3E55C7F81AFCE89E00CF955C /* seachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E55C7FD1AFCE89E00CF955C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E55C7FE1AFCE89E00CF955C /* seachTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seachTests.m; sourceTree = "<group>"; };
+		3E55C8091AFCEA2A00CF955C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3E55C80A1AFCEA2A00CF955C /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		3E55C80B1AFCEA2A00CF955C /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 				3E55C7EF1AFCE89E00CF955C /* Images.xcassets */,
 				3E55C7F11AFCE89E00CF955C /* LaunchScreen.xib */,
 				3E55C7E21AFCE89E00CF955C /* Supporting Files */,
+				3E55C8081AFCEA2A00CF955C /* Defaults */,
 			);
 			path = seach;
 			sourceTree = "<group>";
@@ -117,6 +124,16 @@
 				3E55C7FD1AFCE89E00CF955C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E55C8081AFCEA2A00CF955C /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				3E55C8091AFCEA2A00CF955C /* Default-568h@2x.png */,
+				3E55C80A1AFCEA2A00CF955C /* Default-667h@2x.png */,
+				3E55C80B1AFCEA2A00CF955C /* Default-736h@3x.png */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +217,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E55C7EE1AFCE89E00CF955C /* Main.storyboard in Resources */,
+				3E55C80C1AFCEA2A00CF955C /* Default-568h@2x.png in Resources */,
 				3E55C7F31AFCE89E00CF955C /* LaunchScreen.xib in Resources */,
 				3E55C7F01AFCE89E00CF955C /* Images.xcassets in Resources */,
+				3E55C80D1AFCEA2A00CF955C /* Default-667h@2x.png in Resources */,
+				3E55C80E1AFCEA2A00CF955C /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = seach/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = seach/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
